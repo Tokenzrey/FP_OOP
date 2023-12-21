@@ -11,7 +11,6 @@ public class Chat_Date extends javax.swing.JLayeredPane {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         lbDate = new javax.swing.JLabel();
@@ -49,12 +48,8 @@ public class Chat_Date extends javax.swing.JLayeredPane {
                         .addComponent(line1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(10, 10, 10))
         );
-    }// </editor-fold>//GEN-END:initComponents
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private javax.swing.JLabel lbDate;
     private com.raven.swing.Line line1;
     private com.raven.swing.Line line2;
-    // End of variables declaration//GEN-END:variables
 }

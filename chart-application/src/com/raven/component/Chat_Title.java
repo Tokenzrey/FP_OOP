@@ -47,7 +47,6 @@ public class Chat_Title extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         layer = new javax.swing.JLayeredPane();
@@ -83,12 +82,9 @@ public class Chat_Title extends javax.swing.JPanel {
                 .addComponent(layer, javax.swing.GroupLayout.PREFERRED_SIZE, 34, Short.MAX_VALUE)
                 .addGap(3, 3, 3))
         );
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLayeredPane layer;
     private javax.swing.JLabel lbName;
     private javax.swing.JLabel lbStatus;
-    // End of variables declaration//GEN-END:variables
 }

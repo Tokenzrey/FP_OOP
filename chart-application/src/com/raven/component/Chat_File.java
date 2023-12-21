@@ -13,7 +13,7 @@ public class Chat_File extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         progress1 = new com.raven.swing.Progress();
@@ -53,13 +53,9 @@ public class Chat_File extends javax.swing.JPanel {
                     .addComponent(progress1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(3, 3, 3))
         );
-    }// </editor-fold>//GEN-END:initComponents
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbFileName;
     private javax.swing.JLabel lbFileSize;
     private com.raven.swing.Progress progress1;
-    // End of variables declaration//GEN-END:variables
 }

@@ -50,7 +50,7 @@ public class Item_People extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         imageAvatar1 = new com.raven.swing.ImageAvatar();
@@ -102,13 +102,9 @@ public class Item_People extends javax.swing.JPanel {
                     .addComponent(imageAvatar1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(3, 3, 3))
         );
-    }// </editor-fold>//GEN-END:initComponents
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private com.raven.swing.ActiveStatus activeStatus;
     private com.raven.swing.ImageAvatar imageAvatar1;
     private javax.swing.JLabel lb;
     private javax.swing.JLabel lbStatus;
-    // End of variables declaration//GEN-END:variables
 }

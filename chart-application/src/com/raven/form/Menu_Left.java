@@ -91,7 +91,7 @@ public class Menu_Left extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         menu = new javax.swing.JLayeredPane();
@@ -151,19 +151,16 @@ public class Menu_Left extends javax.swing.JPanel {
                 .addComponent(sp)
                 .addContainerGap())
         );
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void menuMessageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuMessageActionPerformed
         if (!menuMessage.isSelected()) {
             menuMessage.setSelected(true);
             showMessage();
         }
-    }//GEN-LAST:event_menuMessageActionPerformed
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private javax.swing.JLayeredPane menu;
     private javax.swing.JLayeredPane menuList;
     private com.raven.component.MenuButton menuMessage;
     private javax.swing.JScrollPane sp;
-    // End of variables declaration//GEN-END:variables
 }

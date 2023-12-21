@@ -53,7 +53,7 @@ public class Panel_More extends javax.swing.JPanel {
         panelHeader.add(getEmojiStyle2());
         add(panelHeader, "w 100%, h 30!, wrap");
         panelDetail = new JPanel();
-        panelDetail.setLayout(new WrapLayout(WrapLayout.LEFT));    //  use warp layout
+        panelDetail.setLayout(new WrapLayout(WrapLayout.LEFT));    
         JScrollPane ch = new JScrollPane(panelDetail);
         ch.setBorder(null);
         ch.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
@@ -174,7 +174,7 @@ public class Panel_More extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -187,7 +187,7 @@ public class Panel_More extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 84, Short.MAX_VALUE)
         );
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void clearSelected() {
         for (Component c : panelHeader.getComponents()) {
@@ -204,6 +204,4 @@ public class Panel_More extends javax.swing.JPanel {
     private JPanel panelHeader;
     private JPanel panelDetail;
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    // End of variables declaration//GEN-END:variables
 }

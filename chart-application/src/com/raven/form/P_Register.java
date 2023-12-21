@@ -12,7 +12,6 @@ public class P_Register extends javax.swing.JPanel {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         lbTitle = new javax.swing.JLabel();
@@ -120,13 +119,13 @@ public class P_Register extends javax.swing.JPanel {
                 .addComponent(lbError)
                 .addGap(0, 9, Short.MAX_VALUE))
         );
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void cmdBackLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdBackLoginActionPerformed
+    private void cmdBackLoginActionPerformed(java.awt.event.ActionEvent evt) {
         PublicEvent.getInstance().getEventLogin().goLogin();
-    }//GEN-LAST:event_cmdBackLoginActionPerformed
+    }
 
-    private void cmdRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdRegisterActionPerformed
+    private void cmdRegisterActionPerformed(java.awt.event.ActionEvent evt) {
         String userName = txtUser.getText().trim();
         String password = String.valueOf(txtPass.getPassword());
         String confirmPassword = String.valueOf(txtRePassword.getPassword());
@@ -149,10 +148,7 @@ public class P_Register extends javax.swing.JPanel {
                 }
             });
         }
-    }//GEN-LAST:event_cmdRegisterActionPerformed
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private javax.swing.JButton cmdBackLogin;
     private javax.swing.JButton cmdRegister;
     private javax.swing.JLabel jLabel1;
@@ -163,5 +159,4 @@ public class P_Register extends javax.swing.JPanel {
     private javax.swing.JPasswordField txtPass;
     private javax.swing.JPasswordField txtRePassword;
     private javax.swing.JTextField txtUser;
-    // End of variables declaration//GEN-END:variables
 }
